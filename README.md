@@ -4,6 +4,13 @@ A full-stack **Money Tracker web application** that allows users to track income
 Built using the **MERN stack (MongoDB, Express, React, Node.js)** with real-time UI updates and secure environment configuration.
 
 ---
+## Live Application
+
+- **Frontend (Vercel):** https://money-tracker.vercel.app  
+- **Backend (Render):** https://money-tracker-zu7q.onrender.com  
+- **Test API Endpoint:** https://money-tracker-zu7q.onrender.com/api/test  
+
+
 
 ##  Features
 
@@ -54,21 +61,6 @@ npm install
 npm start
 
 --- 
-
-### Key Learnings
-
-- Full CRUD implementation using REST APIs
-
-- React state management and optimistic UI updates
-
-- MongoDB schema validation with Mongoose
-
-- Secure handling of sensitive credentials
-
-- GitHub and deployment workflow
-
-- Real-world project structuring
-
 
 ### Future Enhancements
 
