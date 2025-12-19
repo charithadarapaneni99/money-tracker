@@ -6,7 +6,7 @@ Built using the **MERN stack (MongoDB, Express, React, Node.js)** with real-time
 ---
 ## Live Application
 
-- **Frontend (Vercel):** https://money-tracker.vercel.app  
+- **Frontend (Vercel):** https://money-tracker-ecru-five.vercel.app/
 - **Backend (Render):** https://money-tracker-zu7q.onrender.com  
 - **Test API Endpoint:** https://money-tracker-zu7q.onrender.com/api/test  
 
