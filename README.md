@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+#  Money Tracker – Full Stack MERN Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack **Money Tracker web application** that allows users to track income and expenses, view balances, and analyze monthly financial summaries.  
+Built using the **MERN stack (MongoDB, Express, React, Node.js)** with real-time UI updates and secure environment configuration.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Features
 
-### `yarn start`
+-  Add income and expense transactions
+-  Edit existing transactions
+-  Delete transactions
+-  Store date & time for each transaction
+-  Real-time UI updates (no page refresh)
+-  Monthly summary (income, expenses, balance)
+-  Color-coded transactions (green = income, red = expense)
+-  Secure handling of environment variables
+-  RESTful API architecture
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Tech Stack
 
-### `yarn test`
+### Frontend
+- React (Create React App)
+- JavaScript (ES6+)
+- HTML5, CSS3
+- Fetch API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose ODM
 
-### `yarn build`
+### Tools & Platform
+- Git & GitHub
+- MongoDB Atlas
+- Render (Backend deployment)
+- Vercel (Frontend deployment)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+### Clone the Repository
+git clone https://github.com/charithadarapaneni99/money-tracker.git
+cd money-tracker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Start the Backend
+cd api
+npm install
+nodemon index.js
+### Start the Frontend
+cd ..
+npm install
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+--- 
 
-### `yarn eject`
+### Key Learnings
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Full CRUD implementation using REST APIs
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React state management and optimistic UI updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- MongoDB schema validation with Mongoose
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Secure handling of sensitive credentials
 
-## Learn More
+- GitHub and deployment workflow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Real-world project structuring
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Authentication (Login / Signup)
 
-### Analyzing the Bundle Size
+- Category-wise expenses
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Charts & graphs
 
-### Making a Progressive Web App
+- Search and filters
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Export reports
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Mobile responsiveness
